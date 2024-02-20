@@ -1,20 +1,6 @@
 ﻿using System;
 
-//Numbers
-byte age = 255;
-byte dayOfWeek = 11;        //Camel casing
-byte DayOfWeek = 11;        //Pascal casing
+Console.WriteLine("I am main");
 
-float weight1 = 45.634f;
-double weight2 = 45678.6872346;
-decimal weight3 = 435678.69834728942748924m;
-
-// Text
-char initial = 'D';
-string name = "sdlkf sdfjlksf";
-
-bool? isFemale = null;
-
-DateTime date = DateTime.Now;
-
-Console.WriteLine(date);
+DataTypes dt = new();
+dt.Learn();
