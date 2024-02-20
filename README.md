@@ -17,13 +17,13 @@ Manually create individual folder for each assignment under your repo root folde
 > Take a snapshot of your work here (Code + Output) and save it. 
 6. Instead of initilizing **fullName**, get it from user. (Hint: *Console.ReadLine()*)
 > Take a snapshot of your work here (Code + Output) and save it. 
-7. Now also ask user to enter his/her "Date of Birth" and display user friendly date to console. At this point your output should look like assuming user enters dob as "2010/12/12":
+7. Now also ask user to enter his/her "Date of Birth" and display user friendly date to console. At this point your output should look like assuming user enters dob as "2010/12/12": (Hint: *DateTime.Parse(dateString)*)
 ```
 Hello, BISHNU RAWAL Ji!
 Your DOB: Sunday, 12 December 2010
 ```
 > Take a snapshot of your work here (Code + Output) and save it. 
-8. Your last task is to calculate his/her age as accurate as possible and dispaly it to console. End output will be like:
+8. Your last task is to calculate his/her age as accurate as possible and dispaly it to console. (Hint: If you subract dob from current date, you will get TimeSpan value, TimeSpan will have properties like *.TotalDays*, *.TotalHours* etc.) End output will be like:
 ```
 Hello, BISHNU RAWAL Ji!
 Your DOB: Sunday, 12 December 2010
