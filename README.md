@@ -1,11 +1,14 @@
 # Hey beautiful ladies :) Please Note!
-Manually create individual folder for each assignment under your repo root folder. Folder structure would be
-* NETLEATNING-BISHNU
-    * FirstConsoleApp
-    * Assignment 1
-    * Assignment 2
-    * ...
-
+Manually create folders for each assignment under your repo root folder. 
+1. Folder structure would be (Referring my repo, you use yours):
+    ```
+    > NETLEARNING-BISHNU
+        > FirstConsoleApp
+        > Assignment 1
+        > Assignment 2
+        > ...
+    ```
+1. Save all your code snapshots in corresponding assignment folder. 
 # Assignement 1
 
 1. Create a new console application named **Greeter** under **Assignment 1** folder.
