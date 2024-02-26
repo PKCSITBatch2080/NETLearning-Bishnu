@@ -17,3 +17,13 @@ var highest4 = m.GetMax(3.4);
 Generics g = new();
 g.Display<string>("jsdlkfjsf ");
 g.Display<int>(786);
+
+Student iliya = new Student();
+Student smriti = new Student("Smiriti KC", 123);
+
+iliya.RollNumber = 22;      // Assined
+smriti.RollNumber = 223;    // Not Assigned
+
+
+
+
