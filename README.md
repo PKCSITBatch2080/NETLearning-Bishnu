@@ -8,7 +8,9 @@ Manually create folders for each assignment under your repo root folder.
         > Assignment 2
         > ...
     ```
-1. Save all your code snapshots in corresponding assignment folder. 
+1. Save all your code snapshots in corresponding assignment 
+folder. 
+## Note: This will be your final assessment for Net centric Computing.
 # Assignement 1
 
 1. Create a new console application named **Greeter** under **Assignment 1** folder.
