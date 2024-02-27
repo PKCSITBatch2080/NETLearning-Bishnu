@@ -34,3 +34,10 @@ Hello, BISHNU RAWAL Ji!
 Your DOB: Sunday, 12 December 2010
 Age as of now: 13 Years 2 Months 1 Week 1 Day
 ```
+# Assignment 2
+
+Think of a real world scenario where you can design classe(s), interface(s) and members as shown in following class diagram:
+
+![alt text](/Assignment%202/Assignment2.drawio.png)
+
+> **Note:** Please create new console app to demonstrate all this and push your changes and snapshots (if needed) to respective assignment folders
