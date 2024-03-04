@@ -1,6 +1,22 @@
-# Hey beautiful ladies :) Please Note!
-Manually create folders for each assignment under your repo root folder. 
-1. Folder structure would be (Referring my repo, you use yours):
+# Hey beautiful ladies :) Please Note! these assignments are part of your final lab assessment report.
+1. ## Lab report document layout
+    1. ### Assignment N (Related Area)
+        ```
+        Assignment Description
+        ```
+    1. ### Implementation
+        ```
+        Relevant Code Sections Only
+        ```
+    1. ### Output Snapshots
+        ```
+        Attach snapshots taken during code execution
+        ```
+    1. ### Takeaway
+       ```
+        Short summary (Few bulleted points) of your learning from this assignemnt implementation
+       ```
+1. Manually create folders for each assignment under your repo root folder. Folder structure would be (Referring my repo, you use yours):
     ```
     > NETLEARNING-BISHNU
         > FirstConsoleApp
@@ -11,7 +27,7 @@ Manually create folders for each assignment under your repo root folder.
 1. Save all your code snapshots in corresponding assignment 
 folder. 
 ## Note: This will be your final assessment for Net centric Computing.
-# Assignement 1
+# Assignement 1 (Kick Starter)
 
 1. Create a new console application named **Greeter** under **Assignment 1** folder.
 1. Modify **Program.cs** to define a variable **fullName** and assign some name.
@@ -34,7 +50,7 @@ Hello, BISHNU RAWAL Ji!
 Your DOB: Sunday, 12 December 2010
 Age as of now: 13 Years 2 Months 1 Week 1 Day
 ```
-# Assignment 2
+# Assignment 2 (OOP Concepts)
 
 Think of a real world scenario where you can design classe(s), interface(s) and members as shown in following class diagram:
 
