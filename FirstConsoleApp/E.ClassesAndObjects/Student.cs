@@ -22,6 +22,7 @@ class Student
     }
     
     public string name;
+    public static string collegeName;
     byte rollNumber;
     public byte RollNumber
     {
