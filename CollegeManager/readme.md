@@ -8,4 +8,17 @@
 4. UAT env. - PO/TPO (https://uat.collegemanager.com) - Preview
 5. Production - Live (https://collegemanager.com)
 
+MVC - Model View Controller
 
+Web App => URLs (Routes) => Controller => Models (Optionally) => Render View
+
+Razor View Engine
+
+
+# College Manager
+
+### Student (Name, Address, Email, Dob, Gender)
+### Teacher (Name, Email, Subject, Qualification, Gender)
+### Program (Name, Affliation, Started)
+### Semester (Title, )
+### Subject (Name, Description, TextBook, Syllabus)
