@@ -27,4 +27,23 @@ public class ProgramController : Controller
         
         return RedirectToAction("Index");
     }
+
+    [HttpGet]
+    public IActionResult Edit(int id)
+    {
+        CollegeManagerDb db = new();
+        var model = db.CollegePrograms.Find(id);
+        return View(model);
+    }
+
+    [HttpPost]
+    public IActionResult Edit(CollegeProgram program) // model binding
+    {
+        // Do something on program
+        CollegeManagerDb db = new();
+        db.CollegePrograms.Update(program);
+        db.SaveChanges();
+        
+        return RedirectToAction("Index");
+    }
 }

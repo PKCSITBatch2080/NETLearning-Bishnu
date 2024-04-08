@@ -9,6 +9,7 @@
       <th scope="col">Name</th>
       <th scope="col">Affliation</th>
       <th scope="col">Started</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -19,6 +20,10 @@
         <td>@college.Name</td>
         <td>@college.Affliation</td>
         <td>@college.Started</td>
+        <td>
+          <a href="/program/edit?id=@college.Id"><i class="bi bi-pen text-warning"></i></a>
+          <a href="/program/delete?id=@college.Id"><i class="bi bi-trash text-danger"></i></a>
+        </td>
       </tr>
     }    
   </tbody>
