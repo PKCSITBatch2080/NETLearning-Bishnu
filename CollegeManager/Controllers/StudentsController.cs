@@ -15,8 +15,8 @@ namespace CollegeManager.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
-            var collegeManagerDb = _context.Students.Include(s => s.CollegeProgram);
-            return View(await collegeManagerDb.ToListAsync());
+            var students = await _context.Students.Include(s => s.CollegeProgram).ToListAsync();
+            return View(students);
         }
 
         // GET: Students/Details/5
@@ -41,7 +41,7 @@ namespace CollegeManager.Controllers
         // GET: Students/Create
         public IActionResult Create()
         {
-            ViewData["CollegeProgramId"] = new SelectList(_context.CollegePrograms, "Id", "Id");
+            ViewBag.CollegeProgramsList = new SelectList(_context.CollegePrograms, "Id", "Name");
             return View();
         }
 
